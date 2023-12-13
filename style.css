@@ -1,0 +1,129 @@
+#banner {
+  background-image: url(./images/banner-tech.jpg);
+  height: 360px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+p {
+  font-size: 1.2rem;
+}
+
+.title {
+  font-family: "Share Tech Mono", monospace;
+  color: white;
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+#banner > h2 {
+  font-size: 1.5rem;
+  color: white;
+}
+
+.profile-img {
+  width: 200px;
+  border-radius: 50%;
+}
+
+#biography {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.blue-title {
+  color: #1145a5;
+  font-size: 3rem;
+}
+
+#description {
+  color: rgb(71, 71, 71);
+}
+
+#skills {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.skill-grid {
+  display: grid;
+  width: 50%;
+  grid-template-columns: auto 1fr;
+  grid-template-rows: auto 1fr;
+  gap: 10px;
+}
+
+.grid-img {
+  grid-row: span 2;
+}
+
+.skill-item {
+  color: #1145a5;
+  font-size: 1.5rem;
+}
+
+#contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 40%;
+  margin: auto;
+}
+
+.blue-subtitle {
+  color: #2961c7;
+  font-size: 1.17rem;
+}
+
+.email-btn {
+  background-color: #010e46;
+  color: white;
+  font-size: 1.5rem;
+  text-decoration: none;
+  padding: 8px 15px;
+  border-radius: 12px;
+}
+
+.email-btn:hover {
+  background-color: #00bfff;
+  transition: 500ms;
+}
+
+footer {
+  background-color: #010e46;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+footer > div > a {
+  text-decoration: none;
+  color: #3f79e4;
+}
+
+.footer-links {
+  display: flex;
+  gap: 30px;
+}
+
+.footer-links > a:hover {
+  color: white;
+  transition: 500ms;
+}
+
+footer > div > p {
+  color: white;
+}
